@@ -1,12 +1,12 @@
 <?php
 
-$host = "localhost";
+$servidor = "localhost";
 $usuario = "root";
 $password = "";
 $base_datos = "correochat";
 
 $conexion = new mysqli(
-    $host,
+    $servidor,
     $usuario,
     $password,
     $base_datos
